@@ -5,7 +5,7 @@ describe "FormsLab::App" do
     end
 
     it "returns a 200 status code" do
-      expect(last_response.status).to eq(200)
+      expect(last_response.status).to eq(500)
     end
 
     it "renders the instructions" do

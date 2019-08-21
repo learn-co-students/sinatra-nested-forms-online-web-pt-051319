@@ -10,3 +10,28 @@
         </body>
 </html>
 
+<form action = "/" method = "">
+
+<h2> Parent </h2>
+<label for="  "> Name</label><br>
+    <input for="  " type= "text" name= "[]" /><br>
+<label for="_"> Weight </label><br>
+    <input for="_" type= "text" name= "[]" /><br>
+<label for=""> </label><br>
+    <input for="_heiht" type= "text" name= "[]" /><br>
+
+<h2> child object</h2>
+<label for="  _1"> Name</label><br>
+    <input for="  _1" type= "text" name= "[#parent][][name]" /><br>
+<label for="_type_1"> Type</label><br>
+    <input for="_type_1" type= "text" name= "[#parent][][]" /><br>
+<label for="____1"> ___</label><br>
+    <input for="_  ____1"type= "text" name= "[#parent][][  ___]" /><br>
+
+    <h2> child object #2</h2>
+<label for="  _2"> Name</label><br>
+    <input for="  _2" type= "text" name= "[#parent][][name]" /><br>
+<label for="_type_2"> Type</label><br>
+    <input for="_type_2" type= "text" name= "[#parent][][]" /><br>
+<label for="____2"> ___</label><br>
+    <input for="_  ____2"type= "text" name= "[#parent][][  ___]" /><br>
